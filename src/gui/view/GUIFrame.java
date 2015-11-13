@@ -23,4 +23,8 @@ public class GUIFrame extends JFrame
 		this.setResizable(false);
 		this.setVisible(true);
 	}
+	public GUIController getBaseController()
+	{
+		return mainController;
+	}
 }
